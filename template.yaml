@@ -5,7 +5,7 @@ Resources:
   Function:
     Type: 'AWS::Serverless::Function'
     Properties:
-      FunctionName: ercot_actual_load
+      FunctionName: ercot_actual_load_by_wzone
       Description: >
         Lambda function that scrapes the previous day actual load by weather zone from ERCOT's website every 24 hours
       Handler: main.lambda_handler
